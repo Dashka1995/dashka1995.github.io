@@ -1,0 +1,17 @@
+.accent {
+  &-header {
+    margin-block: 20px;
+    background-color: var(--color-accent);
+    display: inline-block;
+    padding-block: clamp(6px, -9px + 4.17vw, 11px);
+    padding-inline: 20px;
+    width: 100%;
+    @include flex-center;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+  }
+
+}
+

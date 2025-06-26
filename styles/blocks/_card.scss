@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  &__title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: clamp(25px, 6px + 5.16vw, 58px);
+  }
+  &--feeding {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
